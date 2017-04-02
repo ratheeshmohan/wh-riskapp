@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BetService\BetService.csproj" />
-    <ProjectReference Include="..\BetService.Test\BetService.Test.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

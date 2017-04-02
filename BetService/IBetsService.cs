@@ -17,6 +17,17 @@ namespace BetService
 
         event EventHandler<Bet[]> UnSettledBetsRemoved;
 
+        Bet[] SettledBets{get;}
+
+        Bet[] UnSettledBets{get;}
+
+        Bet[] GetSettledBets(string customerId);
+        
+        Bet[] GetUnSettledBets(string customerId);
+
+        string[] SettledCustomers{get;}
+        
+        CustomerStatistics GetCustomerStatistics(string customerId);
     }
 }
 
