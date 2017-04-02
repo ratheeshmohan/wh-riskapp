@@ -8,13 +8,13 @@ Solution structure:-
 
 BetService is a pure service library which allows client to add settled and unsettled bets. RiskService allow client to get risk of an unsettled bet.
 
-How to Run the app
+How to Run the app  
 -------------------
 
-1. Run console app:
-cd RiskApp
-dotnet run
+1. Run console app:  
+cd RiskApp  
+dotnet run  
 
-2. Run Unit test
-cd BetService.Test
-dotnet test
+2. Run Unit test  
+cd BetService.Test  
+dotnet test  
